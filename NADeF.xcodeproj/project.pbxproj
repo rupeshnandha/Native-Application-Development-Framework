@@ -1,0 +1,248 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B099DC0B17ACFA89005D0056 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B099DC0A17ACFA89005D0056 /* Foundation.framework */; };
+		B099DC1017ACFA89005D0056 /* NADeF.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = B099DC0F17ACFA89005D0056 /* NADeF.h */; };
+		B099DC1217ACFA89005D0056 /* NADeF.m in Sources */ = {isa = PBXBuildFile; fileRef = B099DC1117ACFA89005D0056 /* NADeF.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B099DC0517ACFA89005D0056 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				B099DC1017ACFA89005D0056 /* NADeF.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B099DC0717ACFA89005D0056 /* libNADeF.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNADeF.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B099DC0A17ACFA89005D0056 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B099DC0E17ACFA89005D0056 /* NADeF-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NADeF-Prefix.pch"; sourceTree = "<group>"; };
+		B099DC0F17ACFA89005D0056 /* NADeF.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NADeF.h; sourceTree = "<group>"; };
+		B099DC1117ACFA89005D0056 /* NADeF.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NADeF.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B099DC0417ACFA89005D0056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B099DC0B17ACFA89005D0056 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B099DBFE17ACFA89005D0056 = {
+			isa = PBXGroup;
+			children = (
+				B099DC0C17ACFA89005D0056 /* NADeF */,
+				B099DC0917ACFA89005D0056 /* Frameworks */,
+				B099DC0817ACFA89005D0056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B099DC0817ACFA89005D0056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B099DC0717ACFA89005D0056 /* libNADeF.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B099DC0917ACFA89005D0056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B099DC0A17ACFA89005D0056 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B099DC0C17ACFA89005D0056 /* NADeF */ = {
+			isa = PBXGroup;
+			children = (
+				B099DC0F17ACFA89005D0056 /* NADeF.h */,
+				B099DC1117ACFA89005D0056 /* NADeF.m */,
+				B099DC0D17ACFA89005D0056 /* Supporting Files */,
+			);
+			path = NADeF;
+			sourceTree = "<group>";
+		};
+		B099DC0D17ACFA89005D0056 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B099DC0E17ACFA89005D0056 /* NADeF-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B099DC0617ACFA89005D0056 /* NADeF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B099DC1517ACFA89005D0056 /* Build configuration list for PBXNativeTarget "NADeF" */;
+			buildPhases = (
+				B099DC0317ACFA89005D0056 /* Sources */,
+				B099DC0417ACFA89005D0056 /* Frameworks */,
+				B099DC0517ACFA89005D0056 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NADeF;
+			productName = NADeF;
+			productReference = B099DC0717ACFA89005D0056 /* libNADeF.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B099DBFF17ACFA89005D0056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Rupesh Nandha";
+			};
+			buildConfigurationList = B099DC0217ACFA89005D0056 /* Build configuration list for PBXProject "NADeF" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B099DBFE17ACFA89005D0056;
+			productRefGroup = B099DC0817ACFA89005D0056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B099DC0617ACFA89005D0056 /* NADeF */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B099DC0317ACFA89005D0056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B099DC1217ACFA89005D0056 /* NADeF.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B099DC1317ACFA89005D0056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B099DC1417ACFA89005D0056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B099DC1617ACFA89005D0056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NADeF.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NADeF/NADeF-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B099DC1717ACFA89005D0056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/NADeF.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NADeF/NADeF-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B099DC0217ACFA89005D0056 /* Build configuration list for PBXProject "NADeF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B099DC1317ACFA89005D0056 /* Debug */,
+				B099DC1417ACFA89005D0056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B099DC1517ACFA89005D0056 /* Build configuration list for PBXNativeTarget "NADeF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B099DC1617ACFA89005D0056 /* Debug */,
+				B099DC1717ACFA89005D0056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B099DBFF17ACFA89005D0056 /* Project object */;
+}
